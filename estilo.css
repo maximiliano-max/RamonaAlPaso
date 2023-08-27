@@ -141,6 +141,30 @@
       max-width: 100%; /* Ajustamos el ancho máximo al tamaño del contenedor */
       max-height: auto; /* Dejamos que la altura se ajuste automáticamente */
     }
+    .navbar-brand{
+      font-family: notable;
+      font-size: 25px;
+  }
+  .menu-item .star-image {
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  
+  }
+  .mapa iframe{
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+}
+#ubicacion .local {
+  max-width: 100%;
+  max-height: 500px;
+ align-items: center;
+  border-radius: 25px;
+  overflow: hidden;
+  
+  position: relative; 
+}
   }
 
 
