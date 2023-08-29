@@ -137,7 +137,16 @@
 }
 
 @media screen and (max-width: 768px) {
-    .carousel-item img {
+  .container-fluid img{
+    max-height: 30px;
+    max-width: 30px;
+    margin-right: 20px;
+   border-radius:100px;
+   margin-top: 0px;
+    
+}  
+  
+  .carousel-item img {
       max-width: 100%; /* Ajustamos el ancho máximo al tamaño del contenedor */
       max-height: auto; /* Dejamos que la altura se ajuste automáticamente */
     }
@@ -162,6 +171,9 @@
  align-items: center;
   border-radius: 25px;
   
+}
+#ubicacion p{
+  color: black;
 }
   }
 
